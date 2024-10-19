@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Fetching App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="photo" src="https://media.istockphoto.com/id/1153964825/photo/empty-sandy-beach-and-sea-with-clear-sky-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=rmlyf8sjWZR_01VpnrH-PnCNvQYgbOFqwLZCMbxdFzs=" alt="">
+        <div class="rk">  
+        <h1>Weather App</h1>
+        <input type="text" id="city_name" placeholder="City Name">
+        <button type="submit" id="search">search</button>
+        </div>
+        <div class="inside-container"> 
+            <p> 
+                <span>Wind:</span>
+                <span id="wind">__m/s </span>
+                </p>
+            <p> 
+                <span>Temp:</span>
+                <span id="tempe">__°C</span>
+            </p>
+            <p>
+                <span>Humidity:</span>
+                <span id="humidity">__% </span>
+
+                </p>
+            <p> 
+                <span>Maxtemp:</span>
+                <span id="maxTemp">__°C</span>
+            </p>
+            <p> 
+                <span>Mintemp:</span>
+               <span id="mintemp">__°C</span>
+
+            </p> 
+
+        </div>
+                       
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
